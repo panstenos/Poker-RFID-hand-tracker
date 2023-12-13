@@ -5,7 +5,7 @@ Using RFID readers on a PRi 4 to track poker cards
 The main objective of this project is to track poker cards dealt to players using RFID technology. To accomplish that, 8 RFID readers were connected to the Raspberry Pi 4's IO ports and special poker cards with microchips inside them had to be bought to leverage the NFC technology. For now a breadboard is used to make the connections, but I am planning to design a PCB to replace the breadboard once I have finilized on the RFID readers' placement across the poker table. 
 
 ## <u>Motivation for the Project</u>
-Every now and then, I gather with my friends and play poker. On January 2023, I had an interesting idea and decided to start logging the profit/loss of each player after each session. Soon enough I began to experiment with the data and now I have created an interractive dashboard (check my [Poker-Game-Analysis-using-Plotly-Dash][https://github.com/panstenos/Poker-Game-Analysis-using-Plotly-Dash] repo)
+Every now and then, I gather with my friends and play poker. On January 2023, I had an interesting idea and decided to start logging the profit/loss of each player after each session. Soon enough I began to experiment with the data and now I have created an interractive dashboard (check my [Poker-Game-Analysis-using-Plotly-Dash](https://github.com/panstenos/Poker-Game-Analysis-using-Plotly-Dash) repo)
 
 ## <u>About the dataset</u>
 The dataset has around 900 rows and 12 features as follows:
