@@ -19,7 +19,7 @@ Order Summary:
 - [SD card](https://www.amazon.co.uk/Samsung-32GB-Memory-Micro-Adapter/dp/B06XFSZGCC/ref=sr_1_4?crid=1GBDG49DCK1S&keywords=samsung+micro+sd+card+32&qid=1702485942&sprefix=samsung+micro+sd+card+32%2Caps%2C75&sr=8-4)
 - [Micro SD card reader](https://www.amazon.co.uk/dp/B00W02VHM6?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 
-- 
+  
 Software:
 - [Raspberry Pi OS download](https://www.raspberrypi.com/software/)
 - [Interface RFID module RC522 with Raspberry Pi 4](https://www.theengineeringprojects.com/2023/01/interface-rfid-module-rc522-with-raspberry-pi-4.html#:~:text=Wiring%20the%20RFID%20RC522&text=Simply%20connecting%207%20of%20the,SCK%20connects%20to%20Pin%2023.)
