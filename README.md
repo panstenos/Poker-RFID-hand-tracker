@@ -17,9 +17,13 @@ Every now and then, I gather with my friends and play poker. On January 2023, I 
 - [Micro HDMI to HDMI](https://www.amazon.co.uk/dp/B098XS9XS2?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 - [SD card](https://www.amazon.co.uk/Samsung-32GB-Memory-Micro-Adapter/dp/B06XFSZGCC/ref=sr_1_4?crid=1GBDG49DCK1S&keywords=samsung+micro+sd+card+32&qid=1702485942&sprefix=samsung+micro+sd+card+32%2Caps%2C75&sr=8-4)
 - [Micro SD card reader](https://www.amazon.co.uk/dp/B00W02VHM6?psc=1&ref=ppx_yo2ov_dt_b_product_details)
-
   
 ## <u>Software</u>
 - [Raspberry Pi OS download](https://www.raspberrypi.com/software/)
 - [Interface RFID module RC522 with Raspberry Pi 4](https://www.theengineeringprojects.com/2023/01/interface-rfid-module-rc522-with-raspberry-pi-4.html#:~:text=Wiring%20the%20RFID%20RC522&text=Simply%20connecting%207%20of%20the,SCK%20connects%20to%20Pin%2023.)
 - [Raspberry Pi Documentation](https://www.raspberrypi.com/documentation/computers/os.html#python-on-raspberry-pi)
+
+## <u>Progress</u>
+So far I have managed to write the code for 1 RFID reader. I have bypassed the authentication error and the code displays the ID of the card. I am now trying to figure out how to read from 2 reaaders (it will then be easy to connect 5). Unfortunately, the raspberry pi can accomodate up to 5 readers so I will have to do some research on how to connect more than 5 readers. One of the RFID cards I ordered seems to be faulty (9s). Nevertheless, both the jokers work so hopefully in the worst case I can print the 9s over one of the working jokers and fix the issue that way. 
+
+Since I am planning to use a IP camera for the board (flop+turn+river) I will most likely have to do some filtering and upload the data in a database (probably No-SQL).
