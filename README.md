@@ -1,4 +1,4 @@
-# RFID-hand-tracker
+# Poker-RFID-hand-tracker
 Using RFID readers on a PRi 4 to track poker cards
 
 ## <u>Overview</u>
