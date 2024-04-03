@@ -27,3 +27,13 @@ Every now and then, I gather with my friends and play poker. On January 2023, I 
 So far I have managed to write the code for 1 RFID reader. I have bypassed the authentication error and the code displays the ID of the card. I am now trying to figure out how to read from 2 reaaders (it will then be easy to connect 5). Unfortunately, the raspberry pi can accomodate up to 5 readers so I will have to do some research on how to connect more than 5 readers. One of the RFID cards I ordered seems to be faulty (9s). Nevertheless, both the jokers work so hopefully in the worst case I can print the 9s over one of the working jokers and fix the issue that way. 
 
 Since I am planning to use a IP camera for the board (flop+turn+river) I will most likely have to do some filtering and upload the data captured by the readers in a database (probably No-SQL). I should then deploy a model that reads from the database and shows the live progress of the table.
+
+## <u>Debugging and Errors</u>
+
+### Password reset
+
+```bash
+sudo raspi-config
+```
+
+1 System Options >> S3 Password
