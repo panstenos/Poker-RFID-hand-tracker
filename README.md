@@ -31,9 +31,9 @@ Since I am planning to use a IP camera for the board (flop+turn+river) I will mo
 ## <u>Debugging and Errors</u>
 
 ### Password reset
-
+Write the following command in the bash terminal:
 ```bash
 sudo raspi-config
 ```
-
+A window will open. Choose the following:
 1 System Options >> S3 Password
