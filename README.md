@@ -24,6 +24,10 @@ So far I have managed to write the code for 1 RFID reader. I have bypassed the a
 Since I am planning to use a IP camera for the board (flop+turn+river) I will most likely have to do some filtering and upload the data captured by the readers in a database (probably No-SQL). I should then deploy a model that reads from the database and shows the live progress of the table.
 ## <u>Debugging and Errors</u>
 
+## RPi4 Connections
+
+- [RPi 4 GPIO pins information](https://roboticsbackend.com/raspberry-pi-3-pins/)
+- [connect multiple mfrc522 readers to RPi4](https://raspberrypi.stackexchange.com/questions/137059/how-to-connect-multiple-rfid-readers-rc522-to-a-rpi)
 ### Password reset
 
 Write the following command in the bash terminal:
